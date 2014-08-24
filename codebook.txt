@@ -1,0 +1,69 @@
+The 79 row labels for the file c.txt are;
+"taccmeanx"           
+ [2] "taccmeany"            "taccmeanz"            "taccstdx"            
+ [5] "taccstdy"             "taccstdz"             "tgravityaccmeanx"    
+[8] "tgravityaccmeany"     "tgravityaccmeanz"     "tgravityaccstdx"     
+[11] "tgravityaccstdy"      "tgravityaccstdz"      "taccjerkmeanx"       
+[14] "taccjerkmeany"        "taccjerkmeanz"        "taccjerkstdx"        
+[17] "taccjerkstdy"         "taccjerkstdz"         "tgyromeanx"          
+[20] "tgyromeany"           "tgyromeanz"           "tgyrostdx"           
+[23] "tgyrostdy"            "tgyrostdz"            "tgyrojerkmeanx"      
+[26] "tgyrojerkmeany"       "tgyrojerkmeanz"       "tgyrojerkstdx"       
+[29] "tgyrojerkstdy"        "tgyrojerkstdz"        "taccmagmean"         
+[32] "taccmagstd"           "tgravityaccmagmean"   "tgravityaccmagstd"   
+[35] "taccjerkmagmean"      "taccjerkmagstd"       "tgyromagmean"        
+[38] "tgyromagstd"          "tgyrojerkmagmean"     "tgyrojerkmagstd"     
+[41] "faccmeanx"            "faccmeany"            "faccmeanz"           
+[44] "faccstdx"             "faccstdy"             "faccstdz"            
+[47] "faccmeanfreqx"        "faccmeanfreqy"        "faccmeanfreqz"       
+[50] "faccjerkmeanx"        "faccjerkmeany"        "faccjerkmeanz"       
+[53] "faccjerkstdx"         "faccjerkstdy"         "faccjerkstdz"        
+[56] "faccjerkmeanfreqx"    "faccjerkmeanfreqy"    "faccjerkmeanfreqz"   
+[59] "fgyromeanx"           "fgyromeany"           "fgyromeanz"          
+[62] "fgyrostdx"            "fgyrostdy"            "fgyrostdz"           
+[65] "fgyromeanfreqx"       "fgyromeanfreqy"       "fgyromeanfreqz"      
+[68] "faccmagmean"          "faccmagstd"           "faccmagmeanfreq"     
+[71] "faccjerkmagmean"      "faccjerkmagstd"       "faccjerkmagmeanfreq" 
+[74] "fgyromagmean"         "fgyromagstd"          "fgyromagmeanfreq"    
+[77] "fgyrojerkmagmean"     "fgyrojerkmagstd"      "fgyrojerkmagmeanfreq"
+
+These are a subset of variables in features.txt. mean (Mean value) and std (Standard deviation) were calculated for the following features (taken from features_info.txt):
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body (word omitted due to measurements being done on it) and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tAcc-XYZ
+tGravityAcc-XYZ
+tAccJerk-XYZ
+tGyro-XYZ
+tGyroJerk-XYZ
+tAccMag
+tGravityAccMag
+tAccJerkMag
+tGyroMag
+tGyroJerkMag
+fAcc-XYZ
+fAccJerk-XYZ
+fGyro-XYZ
+fAccMag
+fAccJerkMag
+fGyroMag
+fGyroJerkMag
+
+
+  The Column names are those of the activities and the Subjects (1 to 30). 
+
+  The values in the matrix represent average data for each row under the conditions of the column.  
+  
+  The README.md has the method used to obtain the matrix starting from the raw data. Additionally run.analysis.R has comments for each section of code to aid understanding.
+
+
+
+
+
